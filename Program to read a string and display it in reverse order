@@ -1,0 +1,5 @@
+#Program to read a string and display it in reverse order 
+name = input('Enter name')
+print(reversed(name))
+for p in reversed(name):
+    print (p,end='')
