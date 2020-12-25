@@ -1,0 +1,6 @@
+lst = []
+numb = int(input('How many numbers: '))
+for n in range(numb):
+  numbers = int(input('Enter number'))
+  lst.append(numbers)
+print ("Sum of digits of the inputed numbers is :", sum(lst))
