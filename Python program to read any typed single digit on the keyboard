@@ -1,0 +1,23 @@
+num1= int (input('Enter number'))
+if num1 == 0:
+  print(num1, 'is ZERO')
+elif num1 == 1:
+  print(num1, 'is ONE')
+elif num1 == 2:
+  print(num1, 'is TWO')
+elif num1 == 3:
+  print(num1, 'is THREE')
+elif num1 == 4:
+  print(num1, 'is FOUR')
+elif num1 == 5:
+  print(num1, 'is FIVE')
+elif num1 == 6:
+  print(num1, 'is SIX')
+elif num1 == 7:
+  print(num1, 'is SEVEN')
+elif num1 == 8:
+  print(num1, 'is EIGHT')
+elif num1 == 9:
+  print(num1, 'is NINE')
+else:
+  print(num1, 'is not a sigular digit')
