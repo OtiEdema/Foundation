@@ -1,0 +1,16 @@
+# Python program to check if the number is an Armstrong number or not
+
+x=int(input('Enter a Number:-')) # take input from the user
+j=x
+num=len(str(x)) # get the lenght of x
+sum=0 # initialize sum
+for i in range(num):
+    y=x%10
+    x=x//10
+    sum+=y**num     # find the sum of the  power of each digit
+
+    # display the result
+if j==sum:
+    print('It is Armstrong Number')
+else:
+    print('It is not Armstrong Number')
